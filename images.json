@@ -4,7 +4,7 @@
 	},
 	"profiles": {
 		"gl-mt300n-v2": {
-			"include": "gl-health",
+			"include": "gl-health uci2dat wireless-tools",
 			"exclude": ""
 		}
 	}
