@@ -5,7 +5,7 @@
 	},
 	"profiles": {
 		"gl-mt300n-v2": {
-			"v1": "gl-health uci2dat wireless-tools"
+			"v1": "gl-health uci2dat wireless-tools mtk_wanstate"
 		}
 	}
 }
