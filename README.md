@@ -31,16 +31,13 @@ from the package list.
 We can use gl_image utility to create image quickly. You can issue  
 `gl_image --help` for help.  
 
-For GL-MT300N-V2 of v2.27:  
 ```bash  
 Stoke firmware:  
-$ ./gl_image -i v1 -p gl-mt300n-v2 -v 2.27
+$ ./gl_image
 
-Clean firmware:
-$ ./gl_image -i clean -p gl-mt300n-v2 -v 2.27
+Clean firmware with files directory and custom packages:
+$ ./gl_image -t clean -p '-wpad-mini wpad' -f ./files
 ```  
-
-We can use ourselves files with -f option, value is files directory name.  
 
 Available image or profile is listed in images.json.  
 
